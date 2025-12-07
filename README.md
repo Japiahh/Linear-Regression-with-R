@@ -13,3 +13,38 @@ Simple linear Regression with R.
 | **Access Date** | 25/11/2025 |
 | **Source**   | https://www.kaggle.com/datasets/zahranusrat/diamonds-characteristics-and-pricing-analysis |
 
+### 2. Workflow and Objective
+
+The task is performed by selecting two variables from the *Diamonds Characteristics and Pricing Analysis* dataset: **Carat** as the independent variable (intercept) and **Price** as the dependent variable. The objective is to determine whether carat weight has a significant influence on the price of a diamond.
+
+## B. Code
+
+bash'''
+library(gdata)
+diamonds = read.csv('diamonds.csv')
+head(diamonds)
+
+install.packages("tidyverse")
+install.packages("ggpubr")
+
+library(tidyverse)
+library(ggpubr)
+theme_set(theme_pubr())
+
+carat = diamonds$carat
+price = diamonds$price
+
+model = lm(carat ~ price)
+model
+
+ggplot(diamonds, aes(x = price, y = carat))+
+  geom_point()+
+  stat_smooth(method = lm)
+
+cor(price, carat)
+
+summary(model)
+
+'''
+
+
