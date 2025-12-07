@@ -1,4 +1,4 @@
-# Linear-Regression-with-R
+# Linear-Regression-with-R<img height="35" src="https://i.imgflip.com/adfpaj.gif"/>
 Simple linear Regression with R.
 
 ## A. Introduction
