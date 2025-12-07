@@ -1,29 +1,27 @@
 library(gdata)
-worldhappiness = read.csv('2019.csv')
+diamonds = read.csv('diamonds.csv')
+head(diamonds)
 
-names(worldhappiness)
-head(worldhappiness)
+install.packages("tidyverse")
+install.packages("ggpubr")
 
-hap_score = worldhappiness$Score
-gdp = worldhappiness$GDP.per.capita
-healty_life = worldhappiness$Healthy.life.expectancy
-life_choices = worldhappiness$Freedom.to.make.life.choices
+install.packages("devtools")
+devtools::install_github("r-lib/conflicted")
 
-head(cbind(hap_score, healty_life, life_choices))
+library(tidyverse)
+library(ggpubr)
+theme_set(theme_pubr())
 
-plot(hap_score, healty_life, xlab = "Happiness score", ylab = "Healthy life expectancy")
-plot(hap_score, gdp, xlab = "Happiness score", ylab = "GDP per capita")
-plot(hap_score, life_choices, xlab = "Happiness score", ylab = "Freedom to make life choices")
+carat = diamonds$carat
+price = diamonds$price
 
-stem(hap_score)
-stem(gdp)
-stem(healty_life)
-stem(life_choices)
+model = lm(carat ~ price)
+model
 
-cor(hap_score, gdp)
-cor(hap_score, healty_life)
-cor(hap_score, life_choices)
+ggplot(diamonds, aes(x = price, y = carat))+
+  geom_point()+
+  stat_smooth(method = lm)
 
-cor.test(hap_score, gdp)
-cor.test(hap_score, healty_life)
-cor.test(hap_score, life_choices)
+cor(price, carat)
+
+summary(model)
