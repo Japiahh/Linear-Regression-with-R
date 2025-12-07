@@ -213,29 +213,33 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 |--------------|-------------|--------------|-------------|
 |(Intercept)    | 3.673e-01    | 1.112e-03      | 330.2 |
 |Price          | 1.095e-04    | 1.986e-07      | 551.4 |
-|--------------|-------------|
 |Coefficient     |0.9215913|
 
 
 ### 3. Summary
-```table
-Residuals
-Min       Q1        Median     Q3        Max
--1.35765  -0.11329  -0.02442   0.10344   2.66973
 
-RSE
-0.184
+|Residuals|
+|--------------|-------------|--------------|-------------|
+|Min       |Q1        |Median     |Q3        |Max|
+|-1.35765  |-0.11329  |-0.02442   |0.10344   |2.66973|
 
-R-Squared
+|RSE|
+|--------------|
+|0.184|
+
+|R-Squared|
 Multiple   Adjusted
-0.8493     0.8493
+|--------------|-------------|
+|0.8493     |0.8493|
 
-F-Statistic
-3.041e+05
+|F-Statistic|
+|--------------|
+|3.041e+05|
 
-P-Value
-< 2.2e-16
-```
+|P-Value|
+|--------------|
+|< 2.2e-16|
+
 
 ### 4. Conclusion
 The linear regression analysis indicates a strong positive relationship between price and carat. As the price of a diamond increases, its carat value also tends to be higher.
