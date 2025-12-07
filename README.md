@@ -197,16 +197,6 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 ### 1. Plot
 <img src="">
 
----
-| Field        | Description |
-|--------------|-------------|
-| **Title**    | Diamonds Characteristics and Pricing Analysis |
-| **Author**   | Zahra Nusrat |
-| **Description** | The diamonds dataset provides comprehensive information about thousands of gemstones that have been sold. Each record includes attributes such as carat weight, cut quality, color rating, clarity level, price, and physical dimensions. These features support analysis on how quality factors influence diamond value and are suitable for EDA, visualization, and machine learning tasks such as price prediction. |
-| **Access Date** | 25/11/2025 |
-| **Source**   | https://www.kaggle.com/datasets/zahranusrat/diamonds-characteristics-and-pricing-analysis |
----
-
 ### 2. Coefficient Correlation
 
 |               | Estimate     | Std. Error     | T Value |
@@ -218,24 +208,27 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 
 ### 3. Summary
 
-|Residuals|
-|--------------|
+#### a. Residuals
 |Min       |Q1        |Median     |Q3        |Max|
 |--------------|-------------|--------------|-------------|
 |-1.35765  |-0.11329  |-0.02442   |0.10344   |2.66973|
 
+#### b. RSE
 |RSE|
 |--------------|
 |0.184|
 
-|R-Squared|
+#### c. R-Squared
 |Multiple   |Adjusted|
 |--------------|-------------|
 |0.8493     |0.8493|
 
+#### d. R-Squared
 |F-Statistic|
 |--------------|
 |3.041e+05|
+
+#### d. Residuals
 
 |P-Value|
 |--------------|
