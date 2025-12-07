@@ -209,7 +209,7 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 ### 3. Summary
 
 #### a. Residuals
-|Min       |Q1        |Median     |Q3        |Max|
+| Min       | Q1        | Median     | Q3        | Max |
 |--------------|-------------|--------------|-------------|
 |-1.35765  |-0.11329  |-0.02442   |0.10344   |2.66973|
 
@@ -228,7 +228,7 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 |--------------|
 |3.041e+05|
 
-#### d. Residuals
+#### d. P-Value
 
 |P-Value|
 |--------------|
