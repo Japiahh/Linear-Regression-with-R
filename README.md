@@ -19,7 +19,7 @@ The task is performed by selecting two variables from the *Diamonds Characterist
 
 ## B. Code
 
-bash'''
+```
 library(gdata)
 diamonds = read.csv('diamonds.csv')
 head(diamonds)
@@ -45,6 +45,6 @@ cor(price, carat)
 
 summary(model)
 
-'''
+```
 
 
