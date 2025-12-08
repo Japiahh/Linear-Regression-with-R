@@ -238,3 +238,5 @@ F-statistic: 3.041e+05 on 1 and 53938 DF, p-value: < 2.2e-16
 ### 4. Conclusion
 The linear regression analysis indicates a strong positive relationship between price and carat. As the price of a diamond increases, its carat value also tends to be higher.
 This relationship is supported by a high correlation coefficient of approximately 92%, showing a clear and consistent upward trend between the two variables.
+
+unfotunately, no Risa in this repo :(
