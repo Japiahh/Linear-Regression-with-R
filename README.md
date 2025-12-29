@@ -15,7 +15,7 @@ Simple linear Regression with R.
 
 ### 2. Workflow and Objective
 
-The task is performed by selecting two variables from the *Diamonds Characteristics and Pricing Analysis* dataset: **Carat** as the independent variable (intercept) and **Price** as the dependent variable. The objective is to determine whether carat weight has a significant influence on the price of a diamond.
+The task is performed by selecting two variables from the *Diamonds Characteristics and Pricing Analysis* dataset: **Carat** as the dependent variable (intercept) and **Price** as the independent variable. The objective is to determine whether carat weight has a significant influence on the price of a diamond.
 
 ## B. Code
 
